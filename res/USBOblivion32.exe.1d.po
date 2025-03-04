@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: USBOblivion32.exe\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Sopor <sopor@hotmail.com>\n"
+"Language-Team: Åke Engelbrektson <eson57@gmail.com>\n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+
+#: DIALOGCONTROL.102.Button.1 STRING.178
+msgid "Clean"
+msgstr "Rensa"
+
+#: DIALOGCONTROL.102.Button.1002
+msgid "Do real clean (simulation otherwise)"
+msgstr "Rensa på riktigt (annars simulering)"
+
+#: DIALOGCONTROL.102.Button.1003
+msgid "Save backup .reg-file"
+msgstr "Spara säkerhetskopia (.reg-fil)"
+
+#: DIALOGCONTROL.102.Button.1004
+msgid "Reboot Windows (RECOMMENDED)"
+msgstr ""
+
+#: DIALOGCONTROL.102.Button.1005
+msgid "Close Windows Explorer (RECOMMENDED)"
+msgstr ""
+
+#: DIALOGCONTROL.102.Button.2
+msgid "Exit"
+msgstr "Avsluta"
+
+#: MENUITEM.130.32771
+msgid "Copy"
+msgstr "Kopiera"
+
+#: MENUITEM.130.32772
+msgid "Copy all"
+msgstr "Kopiera alla"
+
+#: STRING.129
+msgid ""
+"Usage:\n"
+"\n"
+"USBOblivion[32|64].exe [params]\n"
+"\n"
+"Params:\n"
+"\n"
+"-enable - Do real clean (simulation otherwise)\n"
+"-auto - Automatic run\n"
+"-nosave - Don't save a registry backup file\n"
+"-save:filename - Save a registry backup to this file\n"
+"-log:filename - Save working log to this file\n"
+"-norestorepoint - Don't create a System Restore Point\n"
+"-norestart - Don't restart Windows\n"
+"-noexplorer - Don't close Windows Explorer\n"
+"-lang:XX - Use language XX (hex-code)\n"
+"-silent - Hidden mode (if possible)\n"
+"-? - Show this help\n"
+msgstr ""
+"Användning:\n"
+"\n"
+"USBOblivion[32|64].exe [argument]\n"
+"\n"
+"Argument:\n"
+"\n"
+"-enable - Utför skarp rensning (annars simulering)\n"
+"-auto - Kör automatiskt\n"
+"-nosave - Sparar ingen säkerhetskopia (.reg-fil)\n"
+"-save:filename - Sparar en registerfilkopia till den här filen\n"
+"-log:filename - Sparar arbetsloggen till den här filen\n"
+"-norestorepoint - Skapa inte en systemåterställningspunkt\n"
+"-norestart - Don't restart Windows\n"
+"-noexplorer - Don't close Windows Explorer\n"
+"-lang:XX - Användarspråk XX (hex-kod)\n"
+"-silent - Dolt läge (om möjligt)\n"
+"-? - Visa denna hjälp\n"
+
+#: STRING.130
+msgid "WARNING! Eject all flash drives before cleaning please."
+msgstr "Varning! Mata ut alla flash-enheter före rensning."
+
+#: STRING.132
+msgid "Process mode: real (data will be cleaned)."
+msgstr "Processläge: skarpt (data kommer att rensas)."
+
+#: STRING.133
+msgid "Process mode: simulation (no data will be cleaned)."
+msgstr "Processläge: simulering (ingen data rensas)."
+
+#: STRING.134
+msgid "File creation error: "
+msgstr "Fel vid filskapande: "
+
+#: STRING.135
+msgid "File write error: "
+msgstr "Skrivfel: "
+
+#: STRING.136
+msgid "Backup file: "
+msgstr "Säkerhetskopia: "
+
+#: STRING.137
+msgid "Done."
+msgstr "Klar."
+
+#: STRING.138
+msgid "Gathering data from system registry..."
+msgstr "Samlar in data från registret..."
+
+#: STRING.139
+msgid "Found drives (will be ignored): "
+msgstr "Upptäckta diskenheter (ignoreras): "
+
+#: STRING.140
+msgid "Cleaning..."
+msgstr "Rensar..."
+
+#: STRING.141
+msgid "Removing key: "
+msgstr "Tar bort nyckel: "
+
+#: STRING.142
+msgid "Removing value: "
+msgstr "Tar bort värde: "
+
+#: STRING.143
+msgid "Gathering user data..."
+msgstr "Samlar in användardata..."
+
+#: STRING.144
+msgid "Gathering data about user: "
+msgstr "Samlar in data om användare: "
+
+#: STRING.145
+msgid "Found users: "
+msgstr "Hittade användare: "
+
+#: STRING.146
+msgid "Found mount points: "
+msgstr "Hittade monteringspunkter: "
+
+#: STRING.147
+msgid "Found Explorer drives: "
+msgstr "Hittade Utforskarenheter: "
+
+#: STRING.148
+msgid "Remove error: "
+msgstr "Borttagningsfel: "
+
+#: STRING.149
+msgid "Gathering mount point's data..."
+msgstr "Samlar in monteringspunktdata..."
+
+#: STRING.150
+msgid "Found ControlSets: "
+msgstr "Hittade kontrolluppsättningar: "
+
+#: STRING.151
+msgid "Found keys: "
+msgstr "Hittade nycklar: "
+
+#: STRING.152
+msgid "Found values: "
+msgstr "Hittade värden: "
+
+#: STRING.153
+msgid "Key access denied: "
+msgstr "Nekad nyckelåtkomst: "
+
+#: STRING.154
+msgid "Disk %c: has been inserted."
+msgstr "Enhet %c: har anslutits."
+
+#: STRING.155
+msgid "Logged-in under system account successfully."
+msgstr "Inloggad under systemkonto."
+
+#: STRING.156
+msgid "Failed to login under system account."
+msgstr "Kunde inte logga in under systemkonto."
+
+#: STRING.157
+msgid "Re-starting under administrator..."
+msgstr "Startar om som admininistratör..."
+
+#: STRING.158
+msgid "Disk %c: has been ejected."
+msgstr "Enhet %c: har matats ut."
+
+#: STRING.159
+msgid "Failed to eject disk %c:."
+msgstr "Kunde inte mata ut enhet %c:."
+
+#: STRING.160
+msgid "Ejecting disk %c:..."
+msgstr "Matar ut enhet %c:..."
+
+#: STRING.161
+msgid "Removing file: "
+msgstr "Tar bort fil: "
+
+#: STRING.162
+msgid "Gathering file data..."
+msgstr "Samlar in fildata..."
+
+#: STRING.163
+msgid "Cleaning journal: "
+msgstr "Rensar journal: "
+
+#: STRING.164
+msgid "Gathering journal data..."
+msgstr "Samlar in journaldata..."
+
+#: STRING.165
+msgid "File removal error:"
+msgstr "Fel vid borttagning av fil:"
+
+#: STRING.166
+msgid "Removing file at boot-time:"
+msgstr "Tar bort filen vid datoruppstart:"
+
+#: STRING.167
+msgid "Journal cleanup error:"
+msgstr "Fel i journalrensning:"
+
+#: STRING.168
+msgid "Creating System Restore Point..."
+msgstr "Skapar systemåterställningspunkt..."
+
+#: STRING.169
+msgid "Closing Windows Explorer..."
+msgstr ""
+
+#: STRING.170
+msgid "Gathering Windows Search cache data..."
+msgstr ""
+
+#: STRING.171
+msgid "System Restore Point creation error: "
+msgstr ""
+
+#: STRING.172
+msgid "System Restore Point created successfully."
+msgstr ""
+
+#: STRING.173
+msgid "System Restore Point disabled."
+msgstr ""
+
+#: STRING.174
+msgid "Restarting Windows..."
+msgstr ""
+
+#: STRING.175
+msgid "Restarting Windows Explorer..."
+msgstr ""
+
+#: STRING.176
+msgid "Failed to restart Windows: "
+msgstr ""
+
+#: STRING.177
+msgid "Simulate"
+msgstr ""
+
+#: STRING.179
+msgid "Stopping Windows Services..."
+msgstr ""

@@ -1,0 +1,275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: USBOblivion32.exe\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Boris Gilmar Terrazas Miranda <bdymit@msn.com>\n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#: DIALOGCONTROL.102.Button.1 STRING.178
+msgid "Clean"
+msgstr "Limpiar"
+
+#: DIALOGCONTROL.102.Button.1002
+msgid "Do real clean (simulation otherwise)"
+msgstr "Limpieza real (sin marcar es una simulación)"
+
+#: DIALOGCONTROL.102.Button.1003
+msgid "Save backup .reg-file"
+msgstr "Guardar copia de seguridad (archivo .reg)"
+
+#: DIALOGCONTROL.102.Button.1004
+msgid "Reboot Windows (RECOMMENDED)"
+msgstr "Reiniciar Windows (RECOMENDADO)"
+
+#: DIALOGCONTROL.102.Button.1005
+msgid "Close Windows Explorer (RECOMMENDED)"
+msgstr "Cerrar el Explorador de Windows (RECOMENDADO)"
+
+#: DIALOGCONTROL.102.Button.2
+msgid "Exit"
+msgstr "Salir"
+
+#: MENUITEM.130.32771
+msgid "Copy"
+msgstr "Copiar"
+
+#: MENUITEM.130.32772
+msgid "Copy all"
+msgstr "Copiar todo"
+
+#: STRING.129
+msgid ""
+"Usage:\n"
+"\n"
+"USBOblivion[32|64].exe [params]\n"
+"\n"
+"Params:\n"
+"\n"
+"-enable - Do real clean (simulation otherwise)\n"
+"-auto - Automatic run\n"
+"-nosave - Don't save a registry backup file\n"
+"-save:filename - Save a registry backup to this file\n"
+"-log:filename - Save working log to this file\n"
+"-norestorepoint - Don't create a System Restore Point\n"
+"-norestart - Don't restart Windows\n"
+"-noexplorer - Don't close Windows Explorer\n"
+"-lang:XX - Use language XX (hex-code)\n"
+"-silent - Hidden mode (if possible)\n"
+"-? - Show this help\n"
+msgstr ""
+"Modo de uso:\n"
+"\n"
+"USBOblivion[32|64].exe [parámetros]\n"
+"\n"
+"Parámetros:\n"
+"\n"
+"-enable - Limpieza real (simulación de lo contrario)\n"
+"-auto - Funcionamiento automático\n"
+"-nosave - No guarda copia de seguridad (archivo .reg)\n"
+"-save:filename - Guardar una copia de seguridad del registro en este archivo\n"
+"-log:filename - Guardar registro de trabajo en este archivo\n"
+"-norestorepoint - No crear Punto de Restauración del Sistema\n"
+"-norestart - No reinicie Windows\n"
+"-noexplorer - No cerrar el Explorador de Windows\n"
+"-lang:XX - Usar idioma XX (código hexadecimal)\n"
+"-silent - Modo oculto (Si es posible)\n"
+"-? - Mostrar la ayuda\n"
+
+#: STRING.130
+msgid "WARNING! Eject all flash drives before cleaning please."
+msgstr "¡ADVERTENCIA! Expulsar todas las unidades flash antes de limpiar por favor."
+
+#: STRING.132
+msgid "Process mode: real (data will be cleaned)."
+msgstr "Ejecutar en modo: real (los datos serán limpiados)."
+
+#: STRING.133
+msgid "Process mode: simulation (no data will be cleaned)."
+msgstr "Ejecutar en modo: simulación (no se limpiará ningún dato)."
+
+#: STRING.134
+msgid "File creation error: "
+msgstr "Error de creación de archivos: "
+
+#: STRING.135
+msgid "File write error: "
+msgstr "Error de escritura de archivo: "
+
+#: STRING.136
+msgid "Backup file: "
+msgstr "Archivo de copia de seguridad: "
+
+#: STRING.137
+msgid "Done."
+msgstr "Hecho."
+
+#: STRING.138
+msgid "Gathering data from system registry..."
+msgstr "Recopilando datos del registro del sistema..."
+
+#: STRING.139
+msgid "Found drives (will be ignored): "
+msgstr "Unidades encontradas (se ignorarán): "
+
+#: STRING.140
+msgid "Cleaning..."
+msgstr "Limpiando..."
+
+#: STRING.141
+msgid "Removing key: "
+msgstr "Eliminando clave: "
+
+#: STRING.142
+msgid "Removing value: "
+msgstr "Eliminando valor: "
+
+#: STRING.143
+msgid "Gathering user data..."
+msgstr "Recopilando datos de usuario..."
+
+#: STRING.144
+msgid "Gathering data about user: "
+msgstr "Recopilar datos sobre el usuario: "
+
+#: STRING.145
+msgid "Found users: "
+msgstr "Usuarios encontrados: "
+
+#: STRING.146
+msgid "Found mount points: "
+msgstr "Puntos de montaje encontrados: "
+
+#: STRING.147
+msgid "Found Explorer drives: "
+msgstr "Unidades encontradas: "
+
+#: STRING.148
+msgid "Remove error: "
+msgstr "Error al eliminar: "
+
+#: STRING.149
+msgid "Gathering mount point's data..."
+msgstr "Recopilar datos del punto de montaje..."
+
+#: STRING.150
+msgid "Found ControlSets: "
+msgstr "Conjuntos de control encontrados: "
+
+#: STRING.151
+msgid "Found keys: "
+msgstr "Claves encontradas: "
+
+#: STRING.152
+msgid "Found values: "
+msgstr "Valores encontrados: "
+
+#: STRING.153
+msgid "Key access denied: "
+msgstr "Acceso a clave denegado: "
+
+#: STRING.154
+msgid "Disk %c: has been inserted."
+msgstr "Disco %c: conectado."
+
+#: STRING.155
+msgid "Logged-in under system account successfully."
+msgstr "Sesión iniciada correctamente en la cuenta del sistema."
+
+#: STRING.156
+msgid "Failed to login under system account."
+msgstr "No se pudo iniciar sesión en la cuenta del sistema."
+
+#: STRING.157
+msgid "Re-starting under administrator..."
+msgstr "Reiniciando como administrador..."
+
+#: STRING.158
+msgid "Disk %c: has been ejected."
+msgstr "Disco %c: ha sido expulsado."
+
+#: STRING.159
+msgid "Failed to eject disk %c:."
+msgstr "No se pudo expulsar el disco %c:."
+
+#: STRING.160
+msgid "Ejecting disk %c:..."
+msgstr "Expulsando disco %c:..."
+
+#: STRING.161
+msgid "Removing file: "
+msgstr "Eliminando archivo: "
+
+#: STRING.162
+msgid "Gathering file data..."
+msgstr "Reuniendo datos de archivo.."
+
+#: STRING.163
+msgid "Cleaning journal: "
+msgstr "Limpiando registro: "
+
+#: STRING.164
+msgid "Gathering journal data..."
+msgstr "Limpiando datos del registro..."
+
+#: STRING.165
+msgid "File removal error:"
+msgstr "Error de eliminación de archivo:"
+
+#: STRING.166
+msgid "Removing file at boot-time:"
+msgstr "Eliminación del archivo en el arranque:"
+
+#: STRING.167
+msgid "Journal cleanup error:"
+msgstr "Error de limpieza del registro:"
+
+#: STRING.168
+msgid "Creating System Restore Point..."
+msgstr "Creando Punto de Restauración del Sistema..."
+
+#: STRING.169
+msgid "Closing Windows Explorer..."
+msgstr "Cerrando el Explorador de Windows..."
+
+#: STRING.170
+msgid "Gathering Windows Search cache data..."
+msgstr "Reuniendo datos de la caché de Búsqueda de Windows..."
+
+#: STRING.171
+msgid "System Restore Point creation error: "
+msgstr "Error de creación del Punto de Restauración del Sistema: "
+
+#: STRING.172
+msgid "System Restore Point created successfully."
+msgstr "Punto de Restauración del Sistema creado correctamente."
+
+#: STRING.173
+msgid "System Restore Point disabled."
+msgstr "Punto de Restauración del Sistema deshabilitado."
+
+#: STRING.174
+msgid "Restarting Windows..."
+msgstr "Reiniciando Windows..."
+
+#: STRING.175
+msgid "Restarting Windows Explorer..."
+msgstr "Reiniciando el Explorador de Windows..."
+
+#: STRING.176
+msgid "Failed to restart Windows: "
+msgstr "No se pudo reiniciar Windows: "
+
+#: STRING.177
+msgid "Simulate"
+msgstr "Simular"
+
+#: STRING.179
+msgid "Stopping Windows Services..."
+msgstr "Deteniendo Servicios de Windows..."

@@ -1,0 +1,272 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Neutral resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_NEU)
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+#pragma code_page(1251)
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_SAMPLE_DIALOG DIALOGEX 0, 0, 237, 268
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Text of dialog caption"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Ok",IDOK,88,243,60,18
+    PUSHBUTTON      "Text on button",IDC_BUTTON1,7,7,223,18
+    CONTROL         "Text on checkbox",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,28,223,10
+    GROUPBOX        "Text on group",IDC_STATIC,7,42,223,42
+    CONTROL         "Text on radiobutton 1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | WS_GROUP,13,55,141,10
+    CONTROL         "Text on radiobutton 2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,13,66,141,10
+    LTEXT           "Text on text control",IDC_STATIC,7,88,223,8
+    LTEXT           "Text on text control",IDC_STATIC,7,99,223,8
+    COMBOBOX        IDC_COMBO1,7,114,100,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT2,7,135,223,24,ES_MULTILINE | ES_AUTOVSCROLL | ES_AUTOHSCROLL | ES_READONLY
+    CONTROL         "",IDC_STATIC,"Static",SS_ETCHEDHORZ,7,212,223,1
+    COMBOBOX        IDC_LANGS,7,222,223,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "<a>SysLink Text</a>",IDC_SYSLINK1,"SysLink",WS_TABSTOP,7,165,90,14
+    CONTROL         "MfcLink Text",IDC_MFCLINK1,"MfcLink",WS_TABSTOP,140,165,90,14
+    CONTROL         "Command Button Text",IDC_COMMAND1,"Button",BS_COMMANDLINK | WS_TABSTOP,7,180,223,29
+    COMBOBOX        IDC_COMBO2,130,114,100,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,4
+ PRODUCTVERSION 1,0,0,4
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "000004b0"
+        BEGIN
+            VALUE "Comments", "https://www.cherubicsoft.com/en/projects/po-localization/"
+            VALUE "CompanyName", "Raspopov"
+            VALUE "FileDescription", "Localization Library Sample"
+            VALUE "FileVersion", "1.0.0.4"
+            VALUE "InternalName", "sample"
+            VALUE "LegalCopyright", "Copyright © 2011-2023 Nikolay Raspopov"
+            VALUE "OriginalFilename", "sample.exe"
+            VALUE "ProductName", "Localization Library"
+            VALUE "ProductVersion", "1.0.0.4"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_SAMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        VERTGUIDE, 13
+        VERTGUIDE, 154
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 261
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SAMPLE_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO1, 0x403, 19, 0
+0x6574, 0x7478, 0x6920, 0x206e, 0x6f63, 0x626d, 0x626f, 0x786f, 0x3120, 
+"\000" 
+    IDC_COMBO1, 0x403, 1, 0
+"\000" 
+    IDC_COMBO1, 0x403, 19, 0
+0x6574, 0x7478, 0x6920, 0x206e, 0x6f63, 0x626d, 0x626f, 0x786f, 0x3220, 
+"\000" 
+    IDC_MFCLINK1, 0x37c, 157, 0
+0x4d3c, 0x4346, 0x694c, 0x6b6e, 0x555f, 0x6c72, 0x3c3e, 0x4d2f, 0x4346, 
+0x694c, 0x6b6e, 0x555f, 0x6c72, 0x3c3e, 0x464d, 0x4c43, 0x6e69, 0x5f6b, 
+0x7255, 0x506c, 0x6572, 0x6966, 0x3e78, 0x2f3c, 0x464d, 0x4c43, 0x6e69, 
+0x5f6b, 0x7255, 0x506c, 0x6572, 0x6966, 0x3e78, 0x4d3c, 0x4346, 0x694c, 
+0x6b6e, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x4d2f, 0x4346, 0x694c, 
+0x6b6e, 0x545f, 0x6f6f, 0x746c, 0x7069, 0x3c3e, 0x464d, 0x4c43, 0x6e69, 
+0x5f6b, 0x7546, 0x6c6c, 0x6554, 0x7478, 0x6f54, 0x6c6f, 0x6974, 0x3e70, 
+0x4146, 0x534c, 0x3c45, 0x4d2f, 0x4346, 0x694c, 0x6b6e, 0x465f, 0x6c75, 
+0x546c, 0x7865, 0x5474, 0x6f6f, 0x746c, 0x7069, "\076" 
+    IDC_COMBO2, 0x403, 19, 0
+0x6574, 0x7478, 0x6920, 0x206e, 0x6f63, 0x626d, 0x626f, 0x786f, 0x3320, 
+"\000" 
+    IDC_COMBO2, 0x403, 1, 0
+"\000" 
+    IDC_COMBO2, 0x403, 19, 0
+0x6574, 0x7478, 0x6920, 0x206e, 0x6f63, 0x626d, 0x626f, 0x786f, 0x3420, 
+"\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "Menu popup 1"
+    BEGIN
+        MENUITEM "Menu item 1",                 ID_MENUITEM1
+        MENUITEM SEPARATOR
+        MENUITEM "Menu item 2",                 ID_MENUITEM2
+        MENUITEM SEPARATOR
+        POPUP "Menu popup 2"
+        BEGIN
+            MENUITEM "Menu item 3",                 ID_MENUITEM3
+            MENUITEM "Menu item 4",                 ID_MENUITEM4
+        END
+        POPUP "Menu popup 3"
+        BEGIN
+            MENUITEM "Menu item 5",                 ID_MENUITEM5
+            MENUITEM "Menu item 6",                 ID_MENUITEM6
+        END
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PO
+//
+
+25                      PO                      "res\\sample.exe.19.p_"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_SAMPLE_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDS_STRING130           "Sample string\nand ""other"" string"
+END
+
+#endif    // Neutral resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Russian (Russia) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+#endif    // Russian (Russia) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

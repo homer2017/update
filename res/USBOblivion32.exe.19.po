@@ -1,0 +1,274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: USBOblivion32.exe\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Nikolay Raspopov <raspopov@cherubicsoft.com>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: DIALOGCONTROL.102.Button.1 STRING.178
+msgid "Clean"
+msgstr "Очистка"
+
+#: DIALOGCONTROL.102.Button.1002
+msgid "Do real clean (simulation otherwise)"
+msgstr "Произвести реальную очистку (иначе симуляция)"
+
+#: DIALOGCONTROL.102.Button.1003
+msgid "Save backup .reg-file"
+msgstr "Сохранить .reg-файл отмены"
+
+#: DIALOGCONTROL.102.Button.1004
+msgid "Reboot Windows (RECOMMENDED)"
+msgstr "Перезапустить Windows (РЕКОМЕНДУЕТСЯ)"
+
+#: DIALOGCONTROL.102.Button.1005
+msgid "Close Windows Explorer (RECOMMENDED)"
+msgstr "Закрыть Проводник Windows (РЕКОМЕНДУЕТСЯ)"
+
+#: DIALOGCONTROL.102.Button.2
+msgid "Exit"
+msgstr "Выход"
+
+#: MENUITEM.130.32771
+msgid "Copy"
+msgstr "Копировать"
+
+#: MENUITEM.130.32772
+msgid "Copy all"
+msgstr "Копировать Всё"
+
+#: STRING.129
+msgid ""
+"Usage:\n"
+"\n"
+"USBOblivion[32|64].exe [params]\n"
+"\n"
+"Params:\n"
+"\n"
+"-enable - Do real clean (simulation otherwise)\n"
+"-auto - Automatic run\n"
+"-nosave - Don't save a registry backup file\n"
+"-save:filename - Save a registry backup to this file\n"
+"-log:filename - Save working log to this file\n"
+"-norestorepoint - Don't create a System Restore Point\n"
+"-norestart - Don't restart Windows\n"
+"-noexplorer - Don't close Windows Explorer\n"
+"-lang:XX - Use language XX (hex-code)\n"
+"-silent - Hidden mode (if possible)\n"
+"-? - Show this help\n"
+msgstr ""
+"Использование:\n"
+"\n"
+"USBOblivion[32|64].exe [параметры]\n"
+"\n"
+"Параметры:\n"
+"\n"
+"-enable - Рабочий режим очистки, иначе симуляция\n"
+"-auto - Автоматический запуск\n"
+"-nosave - Отмена сохранения резервной копии реестра\n"
+"-save:filename - Сохранять резервную копию реестра в файл\n"
+"-log:filename - Сохранять отчёт в файл\n"
+"-norestorepoint - Отмена создания точки восстановления\n"
+"-norestart - Отмена перезапуска Windows\n"
+"-noexplorer - Отмена закрытия Проводника\n"
+"-lang:XX - Использовать язык XX (шестнадцатиричный код)\n"
+"-silent - Режим скрытности (если возможно)\n"
+"-? - Выдача этой справки\n"
+
+#: STRING.130
+msgid "WARNING! Eject all flash drives before cleaning please."
+msgstr "ВНИМАНИЕ! Удалите все флешки из системы перед очисткой."
+
+#: STRING.132
+msgid "Process mode: real (data will be cleaned)."
+msgstr "Режим работы: рабочий (реальное удаление)."
+
+#: STRING.133
+msgid "Process mode: simulation (no data will be cleaned)."
+msgstr "Режим работы: симуляция (удаление не производится)."
+
+#: STRING.134
+msgid "File creation error: "
+msgstr "Ошибка создания файла: "
+
+#: STRING.135
+msgid "File write error: "
+msgstr "Ошибка записи в файл: "
+
+#: STRING.136
+msgid "Backup file: "
+msgstr "Файл отмены: "
+
+#: STRING.137
+msgid "Done."
+msgstr "Завершено."
+
+#: STRING.138
+msgid "Gathering data from system registry..."
+msgstr "Идёт сбор данных в системном реестре..."
+
+#: STRING.139
+msgid "Found drives (will be ignored): "
+msgstr "Найдено дисков в системе (игнорируются): "
+
+#: STRING.140
+msgid "Cleaning..."
+msgstr "Идёт очистка..."
+
+#: STRING.141
+msgid "Removing key: "
+msgstr "Удаление ключа: "
+
+#: STRING.142
+msgid "Removing value: "
+msgstr "Удаление значения: "
+
+#: STRING.143
+msgid "Gathering user data..."
+msgstr "Идёт сбор данных о пользователях..."
+
+#: STRING.144
+msgid "Gathering data about user: "
+msgstr "Идёт сбор данных пользователя: "
+
+#: STRING.145
+msgid "Found users: "
+msgstr "Найдено пользователей: "
+
+#: STRING.146
+msgid "Found mount points: "
+msgstr "Найдено точек монтирования: "
+
+#: STRING.147
+msgid "Found Explorer drives: "
+msgstr "Найдено дисков в Проводнике: "
+
+#: STRING.148
+msgid "Remove error: "
+msgstr "Ошибка удаления: "
+
+#: STRING.149
+msgid "Gathering mount point's data..."
+msgstr "Идёт сбор данных о точках монтирования..."
+
+#: STRING.150
+msgid "Found ControlSets: "
+msgstr "Найдено ControlSet'ов: "
+
+#: STRING.151
+msgid "Found keys: "
+msgstr "Найдено ключей: "
+
+#: STRING.152
+msgid "Found values: "
+msgstr "Найдено значений: "
+
+#: STRING.153
+msgid "Key access denied: "
+msgstr "Ошибка доступа к ключу: "
+
+#: STRING.154
+msgid "Disk %c: has been inserted."
+msgstr "Диск %c: вставлен."
+
+#: STRING.155
+msgid "Logged-in under system account successfully."
+msgstr "Вход под системный аккаунт произведён успешно."
+
+#: STRING.156
+msgid "Failed to login under system account."
+msgstr "Ошибка входа под системным аккаунтом."
+
+#: STRING.157
+msgid "Re-starting under administrator..."
+msgstr "Перезапуск под администратором..."
+
+#: STRING.158
+msgid "Disk %c: has been ejected."
+msgstr "Диск %c: извлечён."
+
+#: STRING.159
+msgid "Failed to eject disk %c:."
+msgstr "Ошибка извлечения диска %c:."
+
+#: STRING.160
+msgid "Ejecting disk %c:..."
+msgstr "Попытка извлечения диска %c:..."
+
+#: STRING.161
+msgid "Removing file: "
+msgstr "Удаление файла: "
+
+#: STRING.162
+msgid "Gathering file data..."
+msgstr "Идёт сбор данных о файлах..."
+
+#: STRING.163
+msgid "Cleaning journal: "
+msgstr "Очистка журнала: "
+
+#: STRING.164
+msgid "Gathering journal data..."
+msgstr "Идёт сбор данных о журналах..."
+
+#: STRING.165
+msgid "File removal error:"
+msgstr "Ошибка удаления файла:"
+
+#: STRING.166
+msgid "Removing file at boot-time:"
+msgstr "Удаление файла при перезагрузке:"
+
+#: STRING.167
+msgid "Journal cleanup error:"
+msgstr "Ошибка очистки журнала:"
+
+#: STRING.168
+msgid "Creating System Restore Point..."
+msgstr "Создание Системной Точки Восстановления..."
+
+#: STRING.169
+msgid "Closing Windows Explorer..."
+msgstr "Закрытие Проводника Windows..."
+
+#: STRING.170
+msgid "Gathering Windows Search cache data..."
+msgstr "Идёт сбор данных о кэшах Поиска Windows..."
+
+#: STRING.171
+msgid "System Restore Point creation error: "
+msgstr "Ошибка создания Системной Точки Восстановления: "
+
+#: STRING.172
+msgid "System Restore Point created successfully."
+msgstr "Системная Точка Восстановления создана."
+
+#: STRING.173
+msgid "System Restore Point disabled."
+msgstr "Системные Точки Восстановления выключены."
+
+#: STRING.174
+msgid "Restarting Windows..."
+msgstr "Перезапуск Windows..."
+
+#: STRING.175
+msgid "Restarting Windows Explorer..."
+msgstr "Перезапуск Проводника Windows..."
+
+#: STRING.176
+msgid "Failed to restart Windows: "
+msgstr "Ошибка перезапуска Windows: "
+
+#: STRING.177
+msgid "Simulate"
+msgstr "Симуляция"
+
+#: STRING.179
+msgid "Stopping Windows Services..."
+msgstr "Остановка Служб Windows..."

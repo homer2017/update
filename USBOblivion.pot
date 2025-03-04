@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: USBOblivion32.exe\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.2.2\n"
+
+#: DIALOGCONTROL.102.Button.1 STRING.178
+msgid "Clean"
+msgstr ""
+
+#: DIALOGCONTROL.102.Button.1002
+msgid "Do real clean (simulation otherwise)"
+msgstr ""
+
+#: DIALOGCONTROL.102.Button.1003
+msgid "Save backup .reg-file"
+msgstr ""
+
+#: DIALOGCONTROL.102.Button.1004
+msgid "Reboot Windows (RECOMMENDED)"
+msgstr ""
+
+#: DIALOGCONTROL.102.Button.1005
+msgid "Close Windows Explorer (RECOMMENDED)"
+msgstr ""
+
+#: DIALOGCONTROL.102.Button.2
+msgid "Exit"
+msgstr ""
+
+#: MENUITEM.130.32771
+msgid "Copy"
+msgstr ""
+
+#: MENUITEM.130.32772
+msgid "Copy all"
+msgstr ""
+
+#: STRING.129
+msgid ""
+"Usage:\n"
+"\n"
+"USBOblivion[32|64].exe [params]\n"
+"\n"
+"Params:\n"
+"\n"
+"-enable - Do real clean (simulation otherwise)\n"
+"-auto - Automatic run\n"
+"-nosave - Don't save a registry backup file\n"
+"-save:filename - Save a registry backup to this file\n"
+"-log:filename - Save working log to this file\n"
+"-norestorepoint - Don't create a System Restore Point\n"
+"-norestart - Don't restart Windows\n"
+"-noexplorer - Don't close Windows Explorer\n"
+"-lang:XX - Use language XX (hex-code)\n"
+"-silent - Hidden mode (if possible)\n"
+"-? - Show this help\n"
+msgstr ""
+
+#: STRING.130
+msgid "WARNING! Eject all flash drives before cleaning please."
+msgstr ""
+
+#: STRING.132
+msgid "Process mode: real (data will be cleaned)."
+msgstr ""
+
+#: STRING.133
+msgid "Process mode: simulation (no data will be cleaned)."
+msgstr ""
+
+#: STRING.134
+msgid "File creation error: "
+msgstr ""
+
+#: STRING.135
+msgid "File write error: "
+msgstr ""
+
+#: STRING.136
+msgid "Backup file: "
+msgstr ""
+
+#: STRING.137
+msgid "Done."
+msgstr ""
+
+#: STRING.138
+msgid "Gathering data from system registry..."
+msgstr ""
+
+#: STRING.139
+msgid "Found drives (will be ignored): "
+msgstr ""
+
+#: STRING.140
+msgid "Cleaning..."
+msgstr ""
+
+#: STRING.141
+msgid "Removing key: "
+msgstr ""
+
+#: STRING.142
+msgid "Removing value: "
+msgstr ""
+
+#: STRING.143
+msgid "Gathering user data..."
+msgstr ""
+
+#: STRING.144
+msgid "Gathering data about user: "
+msgstr ""
+
+#: STRING.145
+msgid "Found users: "
+msgstr ""
+
+#: STRING.146
+msgid "Found mount points: "
+msgstr ""
+
+#: STRING.147
+msgid "Found Explorer drives: "
+msgstr ""
+
+#: STRING.148
+msgid "Remove error: "
+msgstr ""
+
+#: STRING.149
+msgid "Gathering mount point's data..."
+msgstr ""
+
+#: STRING.150
+msgid "Found ControlSets: "
+msgstr ""
+
+#: STRING.151
+msgid "Found keys: "
+msgstr ""
+
+#: STRING.152
+msgid "Found values: "
+msgstr ""
+
+#: STRING.153
+msgid "Key access denied: "
+msgstr ""
+
+#: STRING.154
+msgid "Disk %c: has been inserted."
+msgstr ""
+
+#: STRING.155
+msgid "Logged-in under system account successfully."
+msgstr ""
+
+#: STRING.156
+msgid "Failed to login under system account."
+msgstr ""
+
+#: STRING.157
+msgid "Re-starting under administrator..."
+msgstr ""
+
+#: STRING.158
+msgid "Disk %c: has been ejected."
+msgstr ""
+
+#: STRING.159
+msgid "Failed to eject disk %c:."
+msgstr ""
+
+#: STRING.160
+msgid "Ejecting disk %c:..."
+msgstr ""
+
+#: STRING.161
+msgid "Removing file: "
+msgstr ""
+
+#: STRING.162
+msgid "Gathering file data..."
+msgstr ""
+
+#: STRING.163
+msgid "Cleaning journal: "
+msgstr ""
+
+#: STRING.164
+msgid "Gathering journal data..."
+msgstr ""
+
+#: STRING.165
+msgid "File removal error:"
+msgstr ""
+
+#: STRING.166
+msgid "Removing file at boot-time:"
+msgstr ""
+
+#: STRING.167
+msgid "Journal cleanup error:"
+msgstr ""
+
+#: STRING.168
+msgid "Creating System Restore Point..."
+msgstr ""
+
+#: STRING.169
+msgid "Closing Windows Explorer..."
+msgstr ""
+
+#: STRING.170
+msgid "Gathering Windows Search cache data..."
+msgstr ""
+
+#: STRING.171
+msgid "System Restore Point creation error: "
+msgstr ""
+
+#: STRING.172
+msgid "System Restore Point created successfully."
+msgstr ""
+
+#: STRING.173
+msgid "System Restore Point disabled."
+msgstr ""
+
+#: STRING.174
+msgid "Restarting Windows..."
+msgstr ""
+
+#: STRING.175
+msgid "Restarting Windows Explorer..."
+msgstr ""
+
+#: STRING.176
+msgid "Failed to restart Windows: "
+msgstr ""
+
+#: STRING.177
+msgid "Simulate"
+msgstr ""
+
+#: STRING.179
+msgid "Stopping Windows Services..."
+msgstr ""
